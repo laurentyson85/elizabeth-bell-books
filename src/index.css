@@ -11,3 +11,21 @@ body {
   height: 700px;
   background-size: 1500px;
 }
+
+.navBar{
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  display: inline-bock; 
+  margin: 1rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #4B4A4A;
+  transition: 0.1s;  
+}
+
+nav a:hover {  
+  border-bottom: 2px solid #737373;;  
+}

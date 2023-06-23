@@ -2,8 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom"
 
 let activeStyle = {  
-  color:"#116600",
-  borderBottom: "2px solid #116600",
+  borderBottom: "2px solid #4B4A4A",
 }
 
 
@@ -21,13 +20,13 @@ function Nav() {
             Home
           </NavLink>        
         <NavLink
-            to="hats"
+            to="gallery"
             end
             style={({ isActive }) =>
               isActive ? activeStyle : undefined
             }
           >
-            Hats
+            Gallery
           </NavLink>       
         <NavLink
             to="prints"
@@ -36,16 +35,25 @@ function Nav() {
               isActive ? activeStyle : undefined
             }                        
           >
-            Prints
+            Bookstore
           </NavLink>        
         <NavLink
-            to="bio"
+            to="about"
             end
             style={({ isActive }) =>
               isActive ? activeStyle : undefined
             }                        
           >
-            Bio
+            About
+          </NavLink>
+          <NavLink
+            to="contact"
+            end
+            style={({ isActive }) =>
+              isActive ? activeStyle : undefined
+            }                        
+          >
+            Contact
           </NavLink>
         </nav>
     </div>
