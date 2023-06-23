@@ -1,10 +1,12 @@
 import React from "react";
+import Nav from "./Nav";
 import headerImg from "../images/header-image.jpeg"
 
 function Header() {
   return (
-    <div className="header">        
-      <img class="headerImg" id="headerImg" src={headerImg} alt="headerImg"/>
+    <div className="header">  
+      <Nav />      
+      
     </div>
   );
 }

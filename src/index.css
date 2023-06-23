@@ -5,7 +5,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.headerImg
+.header
 {
-  width: 100%;
+  background-image: url("/Users/laurentyson/Development/Elizabeth_code/elizabeth-bell-books/src/images/header-image.jpeg");
+  height: 700px;
+  background-size: 1500px;
 }
