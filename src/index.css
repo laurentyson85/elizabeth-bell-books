@@ -8,13 +8,15 @@ body {
 
 .header {
   background-image: url("/Users/laurentyson/Development/Elizabeth_code/elizabeth-bell-books/src/images/header-image.jpeg");
-  height: 700px;
+  height: 600px;
 }
 
 .headerName {
   font-family: 'Amarante', cursive;
   display: flex;
   justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
   font-size: 6rem;
   color: #C6AB64;
   margin-bottom: .5rem;
@@ -24,11 +26,13 @@ body {
 .headerText {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   font-size: 1.5rem;
 }
 
 .headerButtons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 4rem;
   column-gap: 20rem;
