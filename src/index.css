@@ -27,6 +27,27 @@ body {
   font-size: 1.5rem;
 }
 
+.headerButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  column-gap: 20rem;
+}
+
+.goldButtons {
+  background-color: #C6AB64;
+  border: none;
+  color: black;
+  padding: 17px 30px;
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
 .navBar {
   display: flex;
   justify-content: center;

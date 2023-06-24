@@ -1,5 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
+import AboutButton from "./AboutButtons";
+import BookstoreButton from "./BookstoreButton";
 
 function Header() {
   return (
@@ -7,6 +9,10 @@ function Header() {
       <Nav />
       <h2 className="headerName">Elizabeth Bell</h2>
       <p className="headerText">Author and Publisher of the&nbsp;<i>Time for Dragons</i>&nbsp;children's book series</p>
+      <div className="headerButtons">
+        <AboutButton />
+        <BookstoreButton />
+      </div>
     </div>
   );
 }
