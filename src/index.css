@@ -98,6 +98,7 @@ nav a:hover {
   padding: 5px;
   width: 325px;
 }
+
 .authorNoteChild-2 {
   font-size: 1.1rem;
   line-height: 2;
@@ -126,7 +127,6 @@ nav a:hover {
     height: 300px;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .authorNoteTitle {    
@@ -166,7 +166,7 @@ nav a:hover {
   .authorNote {
     flex-wrap: wrap;
   }
-  
+
   .authorNoteTitle {    
     font-size: 1.7rem;
   }
