@@ -81,6 +81,7 @@ nav a:hover {
 .authorNoteTitle {
   display: flex;
   justify-content: center;
+  text-align: center;
   font-size: 2.7rem;
 }
 
@@ -95,7 +96,7 @@ nav a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 4px;
   padding: 5px;
-  width: 350px;
+  width: 325px;
 }
 .authorNoteChild-2 {
   font-size: 1.1rem;
@@ -108,11 +109,44 @@ nav a:hover {
   margin: 1rem
 }
 
+@media screen and (max-width: 976px) {
+  .authorNoteTitle {    
+    font-size: 2.4rem;
+  }
+
+  .authorNote {    
+    margin: 4rem;
+  }
+  .authorNoteChild-2 {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+  .authorNoteImg {    
+    width: 300px;
+    height: 300px;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
+  .authorNoteTitle {    
+    font-size: 2.2rem;
+  }
+
   .headerButtons {    
     margin-top: 3rem;
     column-gap: 15rem;
+  }
+  .authorNote {    
+    margin: 2rem;
+  }
+  .authorNoteImg {    
+    width: 250px;
+    height: 250px;
+  }
+  .authorNoteChild-2 {
+    font-size: .9rem;
+    line-height: 1.5;
   }
 }
 
@@ -127,6 +161,21 @@ nav a:hover {
 
   .headerButtons {    
     margin-top: 3rem;
+  }
+
+  .authorNote {
+    flex-wrap: wrap;
+  }
+  
+  .authorNoteTitle {    
+    font-size: 1.7rem;
+  }
+  .authorNoteImg {    
+    width: 200px;
+    height: 200px;
+  }
+  .authorNoteChild-2 {
+    margin-top: 1rem;
   }
 }
 
