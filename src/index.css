@@ -11,6 +11,16 @@ body {
   height: 700px;
 }
 
+.headerName {
+  font-family: 'Amarante', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.headerText {
+  display: flex;
+  justify-content: center;
+}
 
 .navBar {
   display: flex;
@@ -37,3 +47,4 @@ nav a {
 nav a:hover {  
   border-bottom: 2px solid #737373;;  
 }
+
