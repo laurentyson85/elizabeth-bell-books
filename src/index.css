@@ -78,6 +78,31 @@ nav a:hover {
   border-bottom: 2px solid #737373;;  
 }
 
+.authorNote {
+  display: flex;
+  justify-content: center;
+  margin: 10rem;
+  column-gap: 2rem;
+}
+
+.authorNoteImg {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+}
+.authorNoteChild-2 {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.signature {
+  font-family: 'Allura', cursive;
+  font-size: 3rem;
+  margin: 1rem
+}
+
+
 @media screen and (max-width: 768px) {
   .headerButtons {    
     margin-top: 3rem;
