@@ -6,7 +6,6 @@ function Header() {
   return (
     <div className="header">  
       <Nav />      
-      
     </div>
   );
 }

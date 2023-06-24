@@ -1,19 +1,26 @@
 body {
-  margin: 0;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  overflow-x: hidden;
+  }
 
-.header
-{
+
+.header {
   background-image: url("/Users/laurentyson/Development/Elizabeth_code/elizabeth-bell-books/src/images/header-image.jpeg");
   height: 700px;
-  background-size: 1500px;
 }
 
-.navBar{
+
+.navBar {
   display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -23,7 +30,12 @@ nav a {
   text-decoration: none;
   font-size: 1.1rem;
   color: #4B4A4A;
-  transition: 0.1s;  
+  transition: 0.1s;
+  
+}
+
+nav a:hover {  
+  border-bottom: 2px solid #737373;;  
 }
 
 nav a:hover {  
