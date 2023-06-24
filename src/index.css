@@ -78,3 +78,41 @@ nav a:hover {
   border-bottom: 2px solid #737373;;  
 }
 
+@media screen and (max-width: 768px) {
+  .headerButtons {    
+    margin-top: 3rem;
+    column-gap: 15rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .headerName {    
+    font-size: 4rem;    
+  }
+  
+  .headerText {
+    font-size: 1.13rem;
+  }
+
+  .headerButtons {    
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .headerName {    
+    font-size: 3.5rem;    
+  }
+  
+  .headerText {
+    font-size: 1.05rem;
+  }
+
+  .headerButtons {    
+    margin-top: 3rem;
+  }
+  .goldButtons {   
+    font-size: 1rem;
+    margin: 6px 2px;    
+  }
+}
