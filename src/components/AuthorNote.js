@@ -4,8 +4,10 @@ import authorNoteImg from "../images/author-note-image.jpeg";
 
 function AuthorNote() {
 
-  return (   
-    <div className="authorNote">      
+  return (
+    <>
+    <p className="authorNoteTitle">Note from the Author (and Dragon)</p>
+    <div className="authorNote">
         <img class="authorNoteImg" src={authorNoteImg} alt="Elizabeth Headshot"/>      
       <div className="authorNoteChild-2">
         <p>Hi! I'm Elizabeth Bell and thank you for visiting my website.The&nbsp;<i>Time for Dragons</i>&nbsp; <br></br> children's book series was 100% inspired by my two pet leopard geckos, <br></br>  Geiko (the Little Yellow Dragon) and Dragon (the Little Pink Dragon - you can see her  <br></br> in the picture!)</p>
@@ -14,6 +16,8 @@ function AuthorNote() {
         <p className="signature">Elizabeth Bell</p>
       </div> 
     </div>  
+    </>   
+    
   );
 }
 
