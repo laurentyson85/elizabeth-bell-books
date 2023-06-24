@@ -29,7 +29,7 @@ function Nav() {
             Gallery
           </NavLink>       
         <NavLink
-            to="prints"
+            to="bookstore"
             end
             style={({ isActive }) =>
               isActive ? activeStyle : undefined
