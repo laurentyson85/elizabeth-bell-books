@@ -132,8 +132,8 @@ nav a:hover {
 }
 
 .purchaseNoteButton {  
-  padding-top: 1rem;
-  width: 25%;
+  padding-top: 2rem;
+  width: 55%;
 }
 
 .purchaseNoteChild-2 {
@@ -151,7 +151,7 @@ nav a:hover {
   column-gap: 20rem;  
 }
 
-@media screen and (max-width: 976px) {
+@media screen and (max-width: 1290px) {
   .authorNoteTitle {    
     font-size: 2.4rem;
   }
@@ -170,16 +170,19 @@ nav a:hover {
     margin: 0rem 0rem 2rem 5rem;
   }
   .purchaseNoteChild-1 {    
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 4rem;
+    padding-right: 2rem;
   }
   .purchaseNoteButton {  
     padding-top: 3.5rem;
-    width: 110%;
+    width: 100%;
   }
   .purchaseNoteChild-2 {    
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .purchaseNoteChild-3 {    
+    column-gap: 10rem;  
   }
 }
 
@@ -199,30 +202,19 @@ nav a:hover {
     height: 250px;
   }
   .authorNoteChild-2 {
-    font-size: .9rem;
+    font-size: 1rem;
     line-height: 1.5;
   }
   .purchaseNoteTitle {    
     margin: 0rem 0rem 2rem 5rem;
   }
-  .purchaseNoteChild-1 {    
-    padding-left: 4rem;
-    padding-right: 2rem;
-  }
-  .purchaseNoteButton {  
-    padding-top: 3.5rem;
-    width: 180%;
-  }
   .purchaseNoteChild-2 {    
     padding-left: 4rem;
     padding-right: 4rem;
   }
-  .purchaseNoteChild-3 {    
-    column-gap: 10rem;  
-  }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 590px) {
   .headerName {    
     font-size: 4rem;    
   }
@@ -243,11 +235,31 @@ nav a:hover {
     font-size: 1.7rem;
   }
   .authorNoteImg {    
-    width: 200px;
+    width: 175px;
     height: 200px;
   }
   .authorNoteChild-2 {
     margin-top: 1rem;
+  }
+  .purchaseNoteTitle {  
+    font-size: 2.5rem;  
+    margin: 0rem 0rem 2rem 4rem;
+  }
+  .purchaseNoteChild-1 {    
+    padding-left: 2rem;
+    flex-wrap: wrap;
+  }
+  .purchaseNoteButton {  
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    width: 180%;
+  }
+  .purchaseNoteChild-2 {    
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .purchaseNoteChild-3 {    
+    flex-wrap: wrap;
   }
 }
 
@@ -266,5 +278,9 @@ nav a:hover {
   .goldButtons {   
     font-size: 1rem;
     margin: 6px 2px;    
+  }
+
+  .purchaseNoteTitle {  
+    margin: 0rem 0rem 2rem 3rem;
   }
 }
