@@ -112,6 +112,43 @@ nav a:hover {
 
 .purchaseNote {  
   background-color: #C79FA2;
+  color: #FFFFFF;
+}
+
+.purchaseNoteTitle {
+  font-size: 3rem;
+  padding-top: 5rem;
+  margin: 0rem 0rem 2rem 15rem;
+}
+
+.purchaseNoteChild-1 {
+  font-size: 1.1rem;
+  line-height: 2;
+  display: flex;
+  justify-content: center;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: center;
+  
+}
+.purchaseNoteButton {  
+  padding-top: 1rem;
+  width: 25%;
+}
+
+.purchaseNoteChild-2 {
+  font-size: 1.1rem;
+  line-height: 2;
+  text-align: center;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.purchaseNoteChild-3 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+  column-gap: 20rem;  
 }
 
 @media screen and (max-width: 976px) {
