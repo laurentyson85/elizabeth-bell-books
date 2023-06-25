@@ -147,7 +147,7 @@ nav a:hover {
 .purchaseNoteChild-3 {
   display: flex;
   justify-content: center;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   column-gap: 20rem;  
 }
 
@@ -189,7 +189,7 @@ nav a:hover {
   }
   .headerButtons {    
     margin-top: 3rem;
-    column-gap: 15rem;
+    column-gap: 10rem;
   }
   .authorNote {    
     margin: 2rem;
@@ -201,6 +201,24 @@ nav a:hover {
   .authorNoteChild-2 {
     font-size: .9rem;
     line-height: 1.5;
+  }
+  .purchaseNoteTitle {    
+    margin: 0rem 0rem 2rem 5rem;
+  }
+  .purchaseNoteChild-1 {    
+    padding-left: 4rem;
+    padding-right: 2rem;
+  }
+  .purchaseNoteButton {  
+    padding-top: 3.5rem;
+    width: 180%;
+  }
+  .purchaseNoteChild-2 {    
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .purchaseNoteChild-3 {    
+    column-gap: 10rem;  
   }
 }
 
