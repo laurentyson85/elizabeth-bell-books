@@ -154,6 +154,8 @@ nav a:hover {
 .littleDragons{
   display: flex;
   justify-content: center;
+  margin: 6rem;
+  column-gap: 5rem;
 }
 
 .outlineButton{  
@@ -167,6 +169,20 @@ nav a:hover {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 25px;
+}
+
+.littleDragonsTextButton {
+  text-align: center;
+  width: 40rem;
+  line-height: 2;  
+}
+
+.littleDragonsTitle{
+  font-size: 2rem;
+}
+
+.playtimeCover{
+  width: 20rem;  
 }
 
 @media screen and (max-width: 1290px) {
