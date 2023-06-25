@@ -151,6 +151,24 @@ nav a:hover {
   column-gap: 20rem;  
 }
 
+.littleDragons{
+  display: flex;
+  justify-content: center;
+}
+
+.outlineButton{  
+  border: 1px solid #C6AB64;
+  color: #C6AB64;
+  padding: 17px 30px;
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
 @media screen and (max-width: 1290px) {
   .authorNoteTitle {    
     font-size: 2.4rem;

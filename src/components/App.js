@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import AuthorNote from './AuthorNote';
 import PurchaseNote from './PurchaseNote';
+import LittleDragons from './LittleDragons';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <AuthorNote />
       <PurchaseNote />
+      <LittleDragons />
     </div>
   );
 }
