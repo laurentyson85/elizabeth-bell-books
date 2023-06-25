@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/elizabeth-bell-books/static/css/main.16ecef89.css",
-    "main.js": "/elizabeth-bell-books/static/js/main.9eccd559.js",
+    "main.css": "/elizabeth-bell-books/static/css/main.9acd5f3c.css",
+    "main.js": "/elizabeth-bell-books/static/js/main.b0416afb.js",
     "static/js/787.d1424301.chunk.js": "/elizabeth-bell-books/static/js/787.d1424301.chunk.js",
     "static/media/author-note-image.jpeg": "/elizabeth-bell-books/static/media/author-note-image.90c23ee89dce66772fb0.jpeg",
     "static/media/header-image.jpeg": "/elizabeth-bell-books/static/media/header-image.50027d947bddcdeb779f.jpeg",
     "index.html": "/elizabeth-bell-books/index.html",
-    "main.16ecef89.css.map": "/elizabeth-bell-books/static/css/main.16ecef89.css.map",
-    "main.9eccd559.js.map": "/elizabeth-bell-books/static/js/main.9eccd559.js.map",
+    "main.9acd5f3c.css.map": "/elizabeth-bell-books/static/css/main.9acd5f3c.css.map",
+    "main.b0416afb.js.map": "/elizabeth-bell-books/static/js/main.b0416afb.js.map",
     "787.d1424301.chunk.js.map": "/elizabeth-bell-books/static/js/787.d1424301.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16ecef89.css",
-    "static/js/main.9eccd559.js"
+    "static/css/main.9acd5f3c.css",
+    "static/js/main.b0416afb.js"
   ]
 }
