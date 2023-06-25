@@ -128,9 +128,9 @@ nav a:hover {
   justify-content: center;
   padding-left: 20rem;
   padding-right: 20rem;
-  text-align: center;
-  
+  text-align: center;  
 }
+
 .purchaseNoteButton {  
   padding-top: 1rem;
   width: 25%;
@@ -155,7 +155,6 @@ nav a:hover {
   .authorNoteTitle {    
     font-size: 2.4rem;
   }
-
   .authorNote {    
     margin: 4rem;
   }
@@ -167,13 +166,27 @@ nav a:hover {
     width: 300px;
     height: 300px;
   }
+  .purchaseNoteTitle {    
+    margin: 0rem 0rem 2rem 5rem;
+  }
+  .purchaseNoteChild-1 {    
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .purchaseNoteButton {  
+    padding-top: 3.5rem;
+    width: 110%;
+  }
+  .purchaseNoteChild-2 {    
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .authorNoteTitle {    
     font-size: 2.2rem;
   }
-
   .headerButtons {    
     margin-top: 3rem;
     column-gap: 15rem;
