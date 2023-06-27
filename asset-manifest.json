@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/elizabeth-bell-books/static/css/main.de23b865.css",
-    "main.js": "/elizabeth-bell-books/static/js/main.d81e1379.js",
+    "main.css": "/elizabeth-bell-books/static/css/main.6c1cfb96.css",
+    "main.js": "/elizabeth-bell-books/static/js/main.8a6dde65.js",
     "static/js/787.d1424301.chunk.js": "/elizabeth-bell-books/static/js/787.d1424301.chunk.js",
     "static/media/playtime-book-cover.jpeg": "/elizabeth-bell-books/static/media/playtime-book-cover.5127230537b027f89b09.jpeg",
     "static/media/author-note-image.jpeg": "/elizabeth-bell-books/static/media/author-note-image.90c23ee89dce66772fb0.jpeg",
     "static/media/header-image.jpeg": "/elizabeth-bell-books/static/media/header-image.50027d947bddcdeb779f.jpeg",
     "index.html": "/elizabeth-bell-books/index.html",
-    "main.de23b865.css.map": "/elizabeth-bell-books/static/css/main.de23b865.css.map",
-    "main.d81e1379.js.map": "/elizabeth-bell-books/static/js/main.d81e1379.js.map",
+    "main.6c1cfb96.css.map": "/elizabeth-bell-books/static/css/main.6c1cfb96.css.map",
+    "main.8a6dde65.js.map": "/elizabeth-bell-books/static/js/main.8a6dde65.js.map",
     "787.d1424301.chunk.js.map": "/elizabeth-bell-books/static/js/787.d1424301.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de23b865.css",
-    "static/js/main.d81e1379.js"
+    "static/css/main.6c1cfb96.css",
+    "static/js/main.8a6dde65.js"
   ]
 }
