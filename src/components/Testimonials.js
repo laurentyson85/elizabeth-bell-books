@@ -14,6 +14,7 @@ function Testimonials() {
         </div>
         <img class="quote" src={topQuotes} alt="Top Quote"/>   
       </div>
+      <br></br>
       <div className="testimonial">
         <img class="quote" src={bottomQuotes} alt="Bottom Quote"/>
         <div>       
