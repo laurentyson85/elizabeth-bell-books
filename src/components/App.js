@@ -4,6 +4,7 @@ import AuthorNote from './AuthorNote';
 import PurchaseNote from './PurchaseNote';
 import LittleDragons from './LittleDragons';
 import Testimonials from './Testimonials';
+import Events from './Events';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <PurchaseNote />
       <LittleDragons />
       <Testimonials />
+      <Events />
     </div>
   );
 }
