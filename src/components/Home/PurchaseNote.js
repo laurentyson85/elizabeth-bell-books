@@ -1,7 +1,7 @@
 import React from "react";
-import BookstoreButton from "./Buttons/BookstoreButton";
-import AmazonButton from "./Buttons/AmazonButton";
-import BarnesNobleButton from "./Buttons/BarnesNobleButton";
+import BookstoreButton from "../Buttons/BookstoreButton";
+import AmazonButton from "../Buttons/AmazonButton";
+import BarnesNobleButton from "../Buttons/BarnesNobleButton";
 
 
 function PurchaseNote() {

@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './Header';
-import AuthorNote from './AuthorNote';
-import PurchaseNote from './PurchaseNote';
-import LittleDragons from './LittleDragons';
-import Testimonials from './Testimonials';
-import Events from './Events';
+import Header from './HeadFoot/Header';
+import AuthorNote from './Home/AuthorNote';
+import PurchaseNote from './Home/PurchaseNote';
+import LittleDragons from './Home/LittleDragons';
+import Testimonials from './Home/Testimonials';
+import Events from './Home/Events';
 
 function App() {
   return (

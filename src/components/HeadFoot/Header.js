@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
-import AboutButton from "./Buttons/AboutButton";
-import BookstoreButton from "./Buttons/BookstoreButton";
+import AboutButton from "../Buttons/AboutButton";
+import BookstoreButton from "../Buttons/BookstoreButton";
 
 function Header() {
   return (
