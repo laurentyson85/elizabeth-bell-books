@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
-import AboutButton from "./AboutButtons";
+import AboutButton from "./AboutButton";
 import BookstoreButton from "./BookstoreButton";
 
 function Header() {
