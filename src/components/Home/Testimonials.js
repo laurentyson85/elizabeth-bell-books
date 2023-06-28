@@ -1,6 +1,6 @@
 import React from "react";
-import bottomQuotes from "../images/bottom-quotes.png";
-import topQuotes from "../images/top-quotes.png";
+import bottomQuotes from "../../images/bottom-quotes.png";
+import topQuotes from "../../images/top-quotes.png";
 
 function Testimonials() {
   return (

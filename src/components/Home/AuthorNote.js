@@ -1,7 +1,5 @@
 import React from "react";
-import authorNoteImg from "../images/author-note-image.jpeg"; 
-
-
+import authorNoteImg from "../../images/author-note-image.jpeg";
 
 function AuthorNote() {
 
