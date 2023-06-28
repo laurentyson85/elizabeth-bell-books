@@ -1,5 +1,5 @@
 import React from "react";
-import BuySequelButton from "./BuySequelButton";
+import BuySequelButton from "./Buttons/BuySequelButton";
 import playtimeCover from "../images/playtime-book-cover.jpeg";
 
 function LittleDragons() {
