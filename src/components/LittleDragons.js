@@ -10,8 +10,8 @@ function LittleDragons() {
         <p>The next book in the&nbsp;<i>Time for Dragons</i>&nbsp; series is here! This book features so much fun and colorful adventures from the Little Dragons that you will be begging for more. Get the next installment in the series today!</p>        
         <BuySequelButton />
       </div>      
-        <img class="playtimeCover" src={playtimeCover} alt="Playtime for Dragons Cover"/>
-      </div>
+      <img class="playtimeCover" src={playtimeCover} alt="Playtime for Dragons Cover"/>
+    </div>      
   );
 }
 
