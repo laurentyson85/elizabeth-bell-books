@@ -47,7 +47,7 @@ function Nav() {
             About
           </NavLink>
           <NavLink
-            to="bio"
+            to="contact"
             end
             style={({ isActive }) =>
               isActive ? activeStyle : undefined
