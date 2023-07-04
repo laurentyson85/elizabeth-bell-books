@@ -80,15 +80,18 @@ nav a:hover {
 .footer {
   display: flex;
   justify-content: center;
-  column-gap: 60rem;  
+  column-gap: 50rem;
 }
 
 .footerText {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
+
 .share {
   padding-top: 1.5rem;
+  padding-bottom: 1rem;
 }
+
 .shareButton {
   background-color: #FF7F50;
   border: none;
@@ -248,6 +251,9 @@ nav a:hover {
 }
 
 @media screen and (max-width: 1290px) {
+  .footer {  
+    flex-wrap: wrap;  
+  }
   .authorNoteTitle {    
     font-size: 2.4rem;
   }
@@ -291,7 +297,9 @@ nav a:hover {
 }
 
 @media screen and (max-width: 976px) {
-  
+  .footer {        
+    column-gap: 37rem;  
+  }    
   .littleDragons{
     flex-wrap: wrap;
     margin: 2rem;
@@ -309,7 +317,17 @@ nav a:hover {
   }
 }
 
+
+@media screen and (max-width: 820px) {
+  .footer {        
+    column-gap: 30rem;  
+  }  
+}
+
 @media screen and (max-width: 768px) {
+  .footer {        
+    column-gap: 25rem;  
+  }  
   .authorNoteTitle {    
     font-size: 2.2rem;
   }
@@ -353,6 +371,9 @@ nav a:hover {
   .headerButtons {    
     margin-top: 3rem;
   }
+  .footer {        
+    column-gap: 3rem;  
+  }  
   .authorNote {
     flex-wrap: wrap;
   }
