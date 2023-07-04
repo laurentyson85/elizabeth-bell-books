@@ -5,7 +5,7 @@ import ShareButton from "../Buttons/ShareButton";
 function Header() {
   return (
     <div className="footer"> 
-      <div className="headerButtons">
+      <div className="footerText">
         <p className="hashtag">#timefordragons</p>
         <p className="copyright">© 2023 Brit Books</p>        
       </div>

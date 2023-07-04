@@ -77,6 +77,15 @@ nav a:hover {
   border-bottom: 2px solid #737373;;  
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  column-gap: 70rem;
+}
+.share {
+  padding-top: 2rem;
+}
+
 .authorNoteTitle {
   display: flex;
   justify-content: center;
