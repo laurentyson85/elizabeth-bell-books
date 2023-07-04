@@ -10,7 +10,7 @@ function TimeGallery() {
 
   return (   
     <div className="timeGallery">
-      <p className="timeGallery">Take a peek at &nbsp;<i>Time for Dragons</i></p>        
+      <p className="timeGalleryTitle">Take a peek at &nbsp;<i>Time for Dragons</i></p>        
       <div class="row">
         <div class="column">
           <img src={time1} alt="Time for Dragons illustration"/>
