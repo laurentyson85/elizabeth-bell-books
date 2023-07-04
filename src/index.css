@@ -323,6 +323,25 @@ nav a:hover {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.bookstore {
+  text-align: center;
+  margin: 6rem;  
+}
+
+.bookstoreWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.bookstoreGallery img {
+  width: 20rem;
+  height: 20rem;
+  margin: 1rem;
+}
+
+
+
 @media screen and (max-width: 1290px) {
   .footer {  
     flex-wrap: wrap;  
