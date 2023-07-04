@@ -326,12 +326,18 @@ nav a:hover {
 
 .bookstore {
   text-align: center;
-  margin: 6rem;  
+  margin: 6rem;   
+}
+
+.bookstoreTitle{
+  font-size: 1.5rem;
+  padding-bottom: 5rem;
 }
 
 .bookstoreWrap {
   display: flex;
   justify-content: center;
+  column-gap: 6rem;
 }
 
 .bookstoreGallery img {
@@ -340,6 +346,9 @@ nav a:hover {
   margin: 1rem;
 }
 
+.bookstoreGallery{
+ padding-bottom: 5rem;
+}
 
 
 @media screen and (max-width: 1290px) {

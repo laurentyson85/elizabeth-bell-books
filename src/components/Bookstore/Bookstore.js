@@ -9,16 +9,16 @@ function Bookstore() {
   return (  
     <>
     <div className="bookstore">     
-      <p className="bookstoreTitle">To purchase an autopgrapghed book or a bookmark, please email me 👉 britwalker17@gmail.com</p> 
+      <p className="bookstoreTitle">To purchase an autograpghed book or a bookmark, please email me 👉 britwalker17@gmail.com</p> 
       <div className="bookstoreWrap">       
         <div class="bookstoreRow">          
           <div className="bookstoreGallery">
             <img src={bedtimeBookCover} alt="Author event photo" />
-            <p className="desc">Hardcover - Autopgrapghed $20.00</p>
+            <p className="desc">Hardcover - Autograpghed $20.00</p>
           </div>               
           <div className="bookstoreGallery">
             <img src={playtimeBookCover} alt="Author event photo"/>
-            <p className="desc">Hardcover - Autopgrapghed $20.00</p>
+            <p className="desc">Hardcover - Autograpghed $20.00</p>
           </div>
         </div>        
         <div className="bookstoreRow">
