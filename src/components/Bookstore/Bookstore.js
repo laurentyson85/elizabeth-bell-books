@@ -14,17 +14,21 @@ function Bookstore() {
         <div class="bookstoreRow">          
           <div className="bookstoreGallery">
             <img src={bedtimeBookCover} alt="Author event photo" />
-            <p className="desc">Hardcover - Autograpghed $20.00</p>
+            <p className="desc"> <i>Bedtime for Dragons</i>&nbsp; hardcover</p>
+            <p className="desc">Autograpghed $20.00</p>
           </div>               
           <div className="bookstoreGallery">
             <img src={playtimeBookCover} alt="Author event photo"/>
-            <p className="desc">Hardcover - Autograpghed $20.00</p>
+            <p className="desc"><i>Playtime for Dragons</i>&nbsp; hardcover</p>
+            <p className="desc">Autograpghed $20.00</p>
           </div>
         </div>        
         <div className="bookstoreRow">
           <div className="bookstoreGallery">
             <img src={bedtimeBookmark1} alt="Author event photo"/>
             <p className="desc">Bookmark - $2.00</p>
+            <br></br>
+            <br></br>
           </div>            
           <div className="bookstoreGallery">
             <img src={bedtimeBookmark2} alt="Author event photo"/>
@@ -33,7 +37,6 @@ function Bookstore() {
         </div>
       </div> 
     </div>   
-    <div class="clearfix"></div>
     </>    
   );
 }

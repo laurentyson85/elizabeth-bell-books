@@ -326,28 +326,36 @@ nav a:hover {
 
 .bookstore {
   text-align: center;
-  margin: 6rem;   
+  padding: 5rem;   
 }
 
 .bookstoreTitle{
-  font-size: 1.5rem;
-  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  line-height: 1.5;
+  font-size: 1.3rem;
 }
 
 .bookstoreWrap {
   display: flex;
   justify-content: center;
   column-gap: 6rem;
+  padding: 2rem;  
 }
 
 .bookstoreGallery img {
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 25rem;
   margin: 1rem;
 }
 
 .bookstoreGallery{
  padding-bottom: 5rem;
+}
+
+.desc {
+  font-size: 1.2rem;
 }
 
 
@@ -466,6 +474,9 @@ nav a:hover {
   .testimonialSection{    
     margin: 0rem 2rem 0rem 2rem;
   }
+  .bookstoreWrap {
+    flex-wrap: wrap;  
+  }
 }
 
 @media screen and (max-width: 590px) {
@@ -561,5 +572,5 @@ nav a:hover {
   }
   .testimonialSection{    
     margin: 0rem 1rem 0rem 1rem;
-  } 
+  }
 }
