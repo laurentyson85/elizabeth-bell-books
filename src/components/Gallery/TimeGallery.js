@@ -10,21 +10,21 @@ function TimeGallery() {
 
   return (   
     <div className="timeGallery">
-      <p className="timeGalleryTitle">Take a peek at &nbsp;<i>Time for Dragons</i></p>        
+      <p className="timeGallery">Take a peek at &nbsp;<i>Time for Dragons</i></p>        
       <div class="row">
         <div class="column">
           <img src={time1} alt="Time for Dragons illustration"/>
-          <img src={time2} alt="Time for Dragons illustration"/>
-          <img src={time3} alt="Time for Dragons illustration"/>
+          <img src={time2} alt="Time for Dragons illustration"/>          
         </div>
-      </div>
-      <div class="row">
         <div class="column">
-          <img src={time4} alt="Time for Dragons illustration"/> 
-          <img src={time5} alt="Time for Dragons illustration"/>
-          <img src={time6} alt="Time for Dragons illustration"/>
+          <img src={time3} alt="Time for Dragons illustration"/>
+          <img src={time4} alt="Time for Dragons illustration"/>          
         </div>
-      </div>
+        <div class="column">
+          <img src={time5} alt="Time for Dragons illustration"/>
+          <img src={time6} alt="Time for Dragons illustration"/>          
+        </div>
+      </div>      
     </div>   
   );
 }

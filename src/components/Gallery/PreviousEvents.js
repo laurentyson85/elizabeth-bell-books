@@ -14,17 +14,17 @@ function PreviousEvents() {
       <div class="row">
         <div class="column">
           <img src={event1} alt="Author event photo"/>
-          <img src={event2} alt="Author event photo"/>
-          <img src={event3} alt="Author event photo"/>
+          <img src={event2} alt="Author event photo"/>          
         </div>
-      </div>
-      <div class="row">
         <div class="column">
-          <img src={event4} alt="Author event photo"/> 
-          <img src={event5} alt="Author event photo"/>
-          <img src={event6} alt="Author event photo"/>
+          <img src={event3} alt="Author event photo"/>
+          <img src={event4} alt="Author event photo"/>          
         </div>
-      </div>
+        <div class="column">
+          <img src={event5} alt="Author event photo"/>
+          <img src={event6} alt="Author event photo"/>          
+        </div>
+      </div>      
     </div>   
   );
 }
