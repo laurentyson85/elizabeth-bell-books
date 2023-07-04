@@ -26,13 +26,13 @@ function Bookstore() {
         <div className="bookstoreRow">
           <div className="bookstoreGallery">
             <img src={bedtimeBookmark1} alt="Author event photo"/>
-            <p className="desc">Bookmark - $2.00</p>
-            <br></br>
-            <br></br>
+            <p className="desc">Bookmark</p>
+            <p className="desc">$2.00</p>
           </div>            
           <div className="bookstoreGallery">
             <img src={bedtimeBookmark2} alt="Author event photo"/>
-            <p className="desc">Bookmark - $2.00</p>
+            <p className="desc">Bookmark</p>
+            <p className="desc">$2.00</p>
           </div>
         </div>
       </div> 
