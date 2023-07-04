@@ -22,7 +22,7 @@ function TimeGallery() {
           <div className="container">
             <img src={time2} alt="Time for Dragons illustration"/>
             <div class="overlay">
-              <div class="text">Bedtime for Dragons - Pg 2</div>              
+              <div class="text">Playtime for Dragons - Pg 5</div>              
             </div>
           </div>          
         </div>
@@ -30,13 +30,13 @@ function TimeGallery() {
         <div className="container">
           <img src={time3} alt="Time for Dragons illustration"/>
           <div class="overlay">
-            <div class="text">Bedtime for Dragons - Pg 2</div>              
+            <div class="text">Bedtime for Dragons - Pg 8</div>              
           </div>
         </div>
           <div className="container">
             <img src={time4} alt="Time for Dragons illustration"/>
             <div class="overlay">
-              <div class="text">Bedtime for Dragons - Pg 2</div>              
+              <div class="text">Playtime for Dragons - Pg 10</div>              
             </div>
           </div>          
         </div>
@@ -44,13 +44,13 @@ function TimeGallery() {
           <div className="container">
             <img src={time5} alt="Time for Dragons illustration"/>
             <div class="overlay">
-              <div class="text">Bedtime for Dragons - Pg 2</div>              
+              <div class="text">Bedtime for Dragons - Pg 13</div>              
             </div>
           </div>
           <div className="container">
             <img src={time6} alt="Time for Dragons illustration"/>
             <div class="overlay">
-              <div class="text">Bedtime for Dragons - Pg 2</div>              
+              <div class="text">Playtime for Dragons - Pg 18</div>              
             </div>
          </div>           
         </div>

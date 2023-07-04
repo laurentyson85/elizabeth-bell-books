@@ -16,13 +16,13 @@ function PreviousEvents() {
           <div className="container">
             <img src={event1} alt="Author event photo"/>
             <div class="overlay">
-              <div class="text">Bedtime for Dragons - Pg 2</div>              
+              <div class="text">On the Shelf at Barnes & Noble in Chandler, AZ - April 2019</div>              
             </div>
           </div>
           <div className="container">
             <img src={event2} alt="Author event photo"/>
             <div class="overlay">
-              <div class="text">Bedtime for Dragons - Pg 2</div>              
+              <div class="text">Book Signing at Tempe, AZ Book Festival - November 2019</div>              
             </div>
           </div>          
         </div>
@@ -30,13 +30,13 @@ function PreviousEvents() {
           <div className="container">
             <img src={event3} alt="Author event photo"/>
             <div class="overlay">
-              <div class="text">Bedtime for Dragons - Pg 2</div>              
+              <div class="text">Booth at Tempe, AZ Book Festival - November 2019</div>              
             </div>
           </div>
           <div className="container">
             <img src={event4} alt="Author event photo"/>
             <div class="overlay">
-              <div class="text">Bedtime for Dragons - Pg 2</div>              
+              <div class="text">Tempe, AZ FanCon - January 2020</div>              
             </div>
           </div>          
         </div>
@@ -44,13 +44,13 @@ function PreviousEvents() {
           <div className="container">
             <img src={event5} alt="Author event photo"/>
             <div class="overlay">
-              <div class="text">Bedtime for Dragons - Pg 2</div>              
+              <div class="text">Booth at Tempe, AZ FanCon - January 2020</div>              
             </div>
           </div>
           <div className="container">
             <img src={event6} alt="Author event photo"/>
             <div class="overlay">
-              <div class="text">Bedtime for Dragons - Pg 2</div>              
+              <div class="text">Booth at KJZZ StoryFest in Mesa, AZ - June 2019</div>              
             </div>
           </div>          
         </div>
