@@ -13,7 +13,12 @@ function TimeGallery() {
       <p className="timeGalleryTitle">Take a peek at&nbsp;<i>Time for Dragons</i></p>        
       <div class="row">
         <div class="column">
-          <img src={time1} alt="Time for Dragons illustration"/>
+          <div className="container">
+            <img className= "image" src={time1} alt="Time for Dragons illustration"/>
+            <div class="overlay">
+              <div class="text">Bedtime for Dragons - Pg 2</div>              
+            </div>
+          </div>
           <img src={time2} alt="Time for Dragons illustration"/>          
         </div>
         <div class="column">
