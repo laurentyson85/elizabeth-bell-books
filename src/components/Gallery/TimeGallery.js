@@ -19,15 +19,40 @@ function TimeGallery() {
               <div class="text">Bedtime for Dragons - Pg 2</div>              
             </div>
           </div>
-          <img src={time2} alt="Time for Dragons illustration"/>          
+          <div className="container">
+            <img src={time2} alt="Time for Dragons illustration"/>
+            <div class="overlay">
+              <div class="text">Bedtime for Dragons - Pg 2</div>              
+            </div>
+          </div>          
         </div>
         <div class="column">
+        <div className="container">
           <img src={time3} alt="Time for Dragons illustration"/>
-          <img src={time4} alt="Time for Dragons illustration"/>          
+          <div class="overlay">
+            <div class="text">Bedtime for Dragons - Pg 2</div>              
+          </div>
+        </div>
+          <div className="container">
+            <img src={time4} alt="Time for Dragons illustration"/>
+            <div class="overlay">
+              <div class="text">Bedtime for Dragons - Pg 2</div>              
+            </div>
+          </div>          
         </div>
         <div class="column">
-          <img src={time5} alt="Time for Dragons illustration"/>
-          <img src={time6} alt="Time for Dragons illustration"/>          
+          <div className="container">
+            <img src={time5} alt="Time for Dragons illustration"/>
+            <div class="overlay">
+              <div class="text">Bedtime for Dragons - Pg 2</div>              
+            </div>
+          </div>
+          <div className="container">
+            <img src={time6} alt="Time for Dragons illustration"/>
+            <div class="overlay">
+              <div class="text">Bedtime for Dragons - Pg 2</div>              
+            </div>
+         </div>           
         </div>
       </div>      
     </div>   

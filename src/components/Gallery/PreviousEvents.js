@@ -13,16 +13,46 @@ function PreviousEvents() {
       <p className="previousEventsTitle">Previous Author Events</p>        
       <div class="row">
         <div class="column">
-          <img src={event1} alt="Author event photo"/>
-          <img src={event2} alt="Author event photo"/>          
+          <div className="container">
+            <img src={event1} alt="Author event photo"/>
+            <div class="overlay">
+              <div class="text">Bedtime for Dragons - Pg 2</div>              
+            </div>
+          </div>
+          <div className="container">
+            <img src={event2} alt="Author event photo"/>
+            <div class="overlay">
+              <div class="text">Bedtime for Dragons - Pg 2</div>              
+            </div>
+          </div>          
         </div>
         <div class="column">
-          <img src={event3} alt="Author event photo"/>
-          <img src={event4} alt="Author event photo"/>          
+          <div className="container">
+            <img src={event3} alt="Author event photo"/>
+            <div class="overlay">
+              <div class="text">Bedtime for Dragons - Pg 2</div>              
+            </div>
+          </div>
+          <div className="container">
+            <img src={event4} alt="Author event photo"/>
+            <div class="overlay">
+              <div class="text">Bedtime for Dragons - Pg 2</div>              
+            </div>
+          </div>          
         </div>
         <div class="column">
-          <img src={event5} alt="Author event photo"/>
-          <img src={event6} alt="Author event photo"/>          
+          <div className="container">
+            <img src={event5} alt="Author event photo"/>
+            <div class="overlay">
+              <div class="text">Bedtime for Dragons - Pg 2</div>              
+            </div>
+          </div>
+          <div className="container">
+            <img src={event6} alt="Author event photo"/>
+            <div class="overlay">
+              <div class="text">Bedtime for Dragons - Pg 2</div>              
+            </div>
+          </div>          
         </div>
       </div>      
     </div>   
