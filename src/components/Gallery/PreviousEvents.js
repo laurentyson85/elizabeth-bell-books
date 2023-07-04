@@ -3,7 +3,7 @@ import React from "react";
 function PreviousEvents() {
 
   return (   
-    <div className="gallery">        
+    <div className="previousEvents">        
       Gallery
     </div>  
   );
