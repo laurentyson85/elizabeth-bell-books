@@ -10,7 +10,7 @@ function PreviousEvents() {
 
   return (   
     <div className="previousEvents">
-      <p className="previousEventsTitle">Previous author events</p>        
+      <p className="previousEventsTitle">Previous Author Events</p>        
       <div class="row">
         <div class="column">
           <img src={event1} alt="Author event photo"/>
