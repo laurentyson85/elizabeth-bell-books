@@ -80,10 +80,14 @@ nav a:hover {
 .footer {
   display: flex;
   justify-content: center;
-  column-gap: 60rem;
+  column-gap: 60rem;  
+}
+
+.footerText {
+  font-size: 1.1rem;
 }
 .share {
-  padding-top: 2rem;
+  padding-top: 1.5rem;
 }
 .shareButton {
   background-color: #FF7F50;
@@ -95,6 +99,11 @@ nav a:hover {
   font-size: 16px;
   cursor: pointer;
   border-radius: 7px;
+}
+
+.footerBackground {
+  background-color: #C79FA2;
+  padding: 1.5rem 0rem 1.5rem 0rem;
 }
 
 .authorNoteTitle {
