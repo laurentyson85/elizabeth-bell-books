@@ -449,6 +449,14 @@ textarea {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
+.successMessage {
+  color: #5cbd67;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1.2rem;
+}
+
 @media screen and (max-width: 1290px) {
   .footer {  
     flex-wrap: wrap;  
