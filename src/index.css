@@ -394,7 +394,8 @@ nav a:hover {
 }
 
 .contactTitle {
-  font-size: 2rem;
+  font-size: 3rem;
+  margin-top:0px;
   text-align: center;
 }
 
@@ -455,6 +456,11 @@ textarea {
   font-weight: bold;
   text-align: center;
   padding-top: 1.2rem;
+}
+
+.time{
+  height: 15rem;
+  width: 30rem;
 }
 
 @media screen and (max-width: 1290px) {
@@ -663,6 +669,13 @@ textarea {
   }
   .contact {    
     padding: 2rem;
+  }
+  .contactTitle {
+    font-size: 2rem;    
+  }
+  .time{
+    height: 10rem;
+    width: 20rem;
   }
 }
 

@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import timeForDragons from "../../images/time-for-dragons.png";
 
 function Contact() {
 
@@ -50,8 +51,9 @@ function Contact() {
 
   return (
     <div className="contact">
-      <p className="contactTitle">Contact Me</p>
-      <p className="contactText">To place an order for an autographed book, a bookmark, to hire me for an event, or to ask me any questions, just use this form!</p>
+      <img className="time" src={timeForDragons} alt="TIme for Dragons image"/>
+      <p className="contactTitle">Contact the Author</p>
+      <p className="contactText">To place an order for an autographed book, a bookmark, to hire me for an event, or to ask me any questions, just use this form. I would love to hear from you!</p>
       <form className="cf" onSubmit={handleSubmit}>
         <div className="half left cf">
           <input className="fields" required type="text" name="name" placeholder="Name" value={formData.name} onChange={handleForm}/>
