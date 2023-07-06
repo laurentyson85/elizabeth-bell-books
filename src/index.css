@@ -400,6 +400,7 @@ nav a:hover {
 
 .contactText {  
   text-align: center;
+  line-height: 1.5;
   font-size: 1.1rem;
   padding-bottom: 2rem;
 }
@@ -652,6 +653,9 @@ textarea {
   .aboutTitle {
     font-size: 2rem;
   }
+  .contact {    
+    padding: 2rem;
+  }
 }
 
 @media screen and (max-width: 393px) {
@@ -676,5 +680,5 @@ textarea {
   }
   .testimonialSection{    
     margin: 0rem 1rem 0rem 1rem;
-  }
+  }  
 }

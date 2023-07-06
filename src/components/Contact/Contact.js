@@ -5,7 +5,7 @@ function Contact() {
   const form = useRef();
 
   //to do
-  //styling
+  //make form feilds required
   //add success message and clear form
   //utilize state to clear and set form
 
