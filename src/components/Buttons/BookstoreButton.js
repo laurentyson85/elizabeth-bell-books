@@ -1,8 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function BookstoreButton() { 
-  return (        
-    <button className="goldButtons" onClick="something">Visit the Bookstore</button>    
+  return (
+    <Link to="/bookstore">
+      <button className="goldButtons">Visit the Bookstore</button>
+    </Link>        
   )
 }
 export default BookstoreButton;
