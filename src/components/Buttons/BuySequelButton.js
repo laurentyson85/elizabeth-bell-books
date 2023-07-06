@@ -1,8 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function BuySequelButton() { 
   return (        
-    <button className="outlineButton" onClick="something">Buy the Sequel</button>    
+    <Link to="/bookstore">
+      <button className="outlineButton">Buy the Sequel</button>
+    </Link>        
   )
 }
 export default BuySequelButton;
