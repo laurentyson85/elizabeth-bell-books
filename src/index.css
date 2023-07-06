@@ -365,7 +365,7 @@ nav a:hover {
 }
 .about {
   text-align: center;
-  padding: 6rem 25rem 6rem 25rem;
+  padding: 4rem 10rem 10rem 10rem;
 }
 
 .aboutTitle {
@@ -380,7 +380,7 @@ nav a:hover {
 }
 
 .elizabethAboutDetails {
-  padding-bottom: 10rem;
+  padding-bottom: 6rem;
 }
 
 
@@ -400,6 +400,7 @@ nav a:hover {
     font-size: 1rem;
     line-height: 1.3;
   }
+  .aboutHeadshotImg,
   .authorNoteImg {    
     width: 300px;
     height: 300px;
@@ -454,11 +455,18 @@ nav a:hover {
   .gallery {     
     margin: 6rem 0rem 6rem 0rem;
   }
+  .about {    
+    padding: 2rem;
+  }
 }
 
 @media screen and (max-width: 820px) {
   .footer {        
     column-gap: 30rem;  
+  }
+  .aboutHeadshotImg {    
+    width: 250px;
+    height: 250px;
   } 
 }
 
@@ -477,7 +485,7 @@ nav a:hover {
   }
   .authorNote {    
     margin: 2rem;
-  }
+  }  
   .authorNoteImg {    
     width: 250px;
     height: 250px;
@@ -501,7 +509,7 @@ nav a:hover {
   }
   .bookstoreWrap {
     flex-wrap: wrap;  
-  }
+  }  
 }
 
 @media screen and (max-width: 590px) {
@@ -524,7 +532,7 @@ nav a:hover {
   .timeGalleryTitle,
   .authorNoteTitle {    
     font-size: 1.7rem;
-  }
+  }  
   .authorNoteImg {    
     width: 175px;
     height: 200px;
@@ -572,6 +580,13 @@ nav a:hover {
   .column {
     flex: 50%;
     max-width: 70%;
+  }  
+  .aboutHeadshotImg {    
+    width: 175px;
+    height: 175px;
+  }
+  .aboutTitle {
+    font-size: 2rem;
   }
 }
 
