@@ -3,13 +3,14 @@ import playtimeBookCover from "../../images/playtime-book-cover.jpeg";
 import bedtimeBookCover from "../../images/bedtime-book-cover.jpeg";
 import bedtimeBookmark1 from "../../images/bedtime-bookmark1.png";
 import bedtimeBookmark2 from "../../images/bedtime-bookmark2.png";
+import { Link } from "react-router-dom";
 
 function Bookstore() {
 
   return (  
     <>
     <div className="bookstore">     
-      <p className="bookstoreTitle">To purchase an autograpghed book or a bookmark, please email me 👉 britwalker17@gmail.com</p> 
+      <p className="bookstoreTitle">To purchase an autograpghed book or a bookmark, please&nbsp;<Link className= "textLink" to="/contact"> contact me!</Link></p> 
       <div className="bookstoreWrap">       
         <div class="bookstoreRow">          
           <div className="bookstoreGallery">
