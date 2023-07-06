@@ -4,7 +4,7 @@ import kevinHeadshot from "../../images/kevin-headshot.jpeg";
 function Kevin() {
 
   return (
-    <div className="aboutDetails">
+    <div className="kevinAboutDetails">
       <img class="aboutHeadshotImg" src={kevinHeadshot} alt="Kevin About Headshot"/>
       <p className="aboutTitle">About the Illustrator</p>
       <div className="aboutText">      

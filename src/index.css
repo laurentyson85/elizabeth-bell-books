@@ -123,6 +123,7 @@ nav a:hover {
   column-gap: 2rem;
 }
 
+.aboutHeadshotImg,
 .authorNoteImg {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 4px;
@@ -356,6 +357,30 @@ nav a:hover {
 
 .desc {
   font-size: 1.2rem;
+}
+
+.aboutBackground {
+  background-image: url("/Users/laurentyson/Development/Elizabeth_code/elizabeth-bell-books/src/images/about-bgImage.jpeg");
+  background-size: cover;
+}
+.about {
+  text-align: center;
+  padding: 6rem 25rem 6rem 25rem;
+}
+
+.aboutTitle {
+  font-size: 2.25rem;
+  color: black;
+}
+
+.aboutText {
+  font-size: 1.1rem;
+  line-height: 2;
+  color: black;
+}
+
+.elizabethAboutDetails {
+  padding-bottom: 10rem;
 }
 
 
