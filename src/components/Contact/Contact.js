@@ -4,6 +4,11 @@ import emailjs from "@emailjs/browser";
 function Contact() {
   const form = useRef();
 
+  //to do
+  //styling
+  //add success message and clear form
+  //utilize state to clear and set form
+
   // const success = <p>thank you for sending us a message</p>;
 
   const sendEmail = (e) => {
@@ -28,16 +33,17 @@ function Contact() {
 
   return (
     <div className="contact">
-      <h1>Contact Form</h1>
+      <p className="contactTitle">Contact Me</p>
+      <p className="contactText">To place an order for an autographed book, a bookmark, to hire me for an event, or to ask me any questions, just use this form!</p>
       <form className="cf" ref={form} onSubmit={sendEmail}>
         <div className="half left cf">
-          <input type="text" placeholder="Name" name="user_name" />
-          <input type="email" placeholder="Email address" name="user_email" />
+          <input className="fields" type="text" placeholder="Name" name="user_name" />
+          <input className="fields" type="email" placeholder="Email address" name="user_email" />
         </div>
         <div className="half right cf">
-          <textarea name="message" type="text" placeholder="Message"></textarea>
+          <textarea name="message" type="text" placeholder="Message..."></textarea>
         </div>
-        <input type="submit" value="Submit" id="input-submit" />
+        <input className="submit" type="submit" value="Submit" id="input-submit" />
       </form>
     </div>
   );
