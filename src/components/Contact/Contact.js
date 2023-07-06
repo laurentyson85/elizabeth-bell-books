@@ -37,11 +37,11 @@ function Contact() {
       <p className="contactText">To place an order for an autographed book, a bookmark, to hire me for an event, or to ask me any questions, just use this form!</p>
       <form className="cf" ref={form} onSubmit={sendEmail}>
         <div className="half left cf">
-          <input className="fields" type="text" placeholder="Name" name="user_name" />
-          <input className="fields" type="email" placeholder="Email address" name="user_email" />
+          <input className="fields" required type="text" placeholder="Name" name="user_name" />
+          <input className="fields" required type="email" placeholder="Email address" name="user_email" />
         </div>
         <div className="half right cf">
-          <textarea name="message" type="text" placeholder="Message..."></textarea>
+          <textarea name="message" required type="text" placeholder="Message..."></textarea>
         </div>
         <input className="submit" type="submit" value="Submit" id="input-submit" />
       </form>
