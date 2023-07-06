@@ -136,6 +136,10 @@ nav a:hover {
   line-height: 2;
 }
 
+.textLink {
+  color: #C6AB64;
+}
+
 .signature {
   font-family: 'Allura', cursive;
   font-size: 3rem;
