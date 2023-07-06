@@ -14,13 +14,13 @@ function PreviousEvents() {
       <div class="row">
         <div class="column">
           <div className="container">
-            <img src={event1} alt="Author event photo"/>
+            <img src={event1} alt="Author event 1"/>
             <div class="overlay">
               <div class="text">On the Shelf at Barnes & Noble in Chandler, AZ - April 2019</div>              
             </div>
           </div>
           <div className="container">
-            <img src={event2} alt="Author event photo"/>
+            <img src={event2} alt="Author event 2"/>
             <div class="overlay">
               <div class="text">Book Signing at Tempe, AZ Book Festival - November 2019</div>              
             </div>
@@ -28,13 +28,13 @@ function PreviousEvents() {
         </div>
         <div class="column">
           <div className="container">
-            <img src={event3} alt="Author event photo"/>
+            <img src={event3} alt="Author event 3"/>
             <div class="overlay">
               <div class="text">Booth at Tempe, AZ Book Festival - November 2019</div>              
             </div>
           </div>
           <div className="container">
-            <img src={event4} alt="Author event photo"/>
+            <img src={event4} alt="Author event 4"/>
             <div class="overlay">
               <div class="text">Tempe, AZ FanCon - January 2020</div>              
             </div>
@@ -42,13 +42,13 @@ function PreviousEvents() {
         </div>
         <div class="column">
           <div className="container">
-            <img src={event5} alt="Author event photo"/>
+            <img src={event5} alt="Author event 5"/>
             <div class="overlay">
               <div class="text">Booth at Tempe, AZ FanCon - January 2020</div>              
             </div>
           </div>
           <div className="container">
-            <img src={event6} alt="Author event photo"/>
+            <img src={event6} alt="Author event 6"/>
             <div class="overlay">
               <div class="text">Booth at KJZZ StoryFest in Mesa, AZ - June 2019</div>              
             </div>

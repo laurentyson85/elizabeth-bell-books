@@ -14,24 +14,24 @@ function Bookstore() {
       <div className="bookstoreWrap">       
         <div class="bookstoreRow">          
           <div className="bookstoreGallery">
-            <img src={bedtimeBookCover} alt="Author event photo" />
+            <img src={bedtimeBookCover} alt="Bedtime bookcover" />
             <p className="desc"> <i>Bedtime for Dragons</i>&nbsp; hardcover</p>
             <p className="desc">Autograpghed $20.00</p>
           </div>               
           <div className="bookstoreGallery">
-            <img src={playtimeBookCover} alt="Author event photo"/>
+            <img src={playtimeBookCover} alt="Platime book cover"/>
             <p className="desc"><i>Playtime for Dragons</i>&nbsp; hardcover</p>
             <p className="desc">Autograpghed $20.00</p>
           </div>
         </div>        
         <div className="bookstoreRow">
           <div className="bookstoreGallery">
-            <img src={bedtimeBookmark1} alt="Author event photo"/>
+            <img src={bedtimeBookmark1} alt="Bedtime bookmark 1"/>
             <p className="desc">Bookmark</p>
             <p className="desc">$2.00</p>
           </div>            
           <div className="bookstoreGallery">
-            <img src={bedtimeBookmark2} alt="Author event photo"/>
+            <img src={bedtimeBookmark2} alt="Bedtime bookmark 2"/>
             <p className="desc">Bookmark</p>
             <p className="desc">$2.00</p>
           </div>
