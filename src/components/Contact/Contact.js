@@ -13,10 +13,6 @@ function Contact() {
     message: "",
   }) 
 
-  useEffect(() => {
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
-  }, [])
-
   function handleForm(event){
     setFormData({
       ...formData, [event.target.name]:event.target.value
@@ -76,8 +72,7 @@ function Contact() {
         <ReCAPTCHA
           //uncomment test key for local testing
           // sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
-          sitekey={process.env.CAPTCHA_SITE_KEY}
-          render="explicit"
+          sitekey={process.env.CAPTCHA_SITE_KEY}          
           onChange={onChange}          
        />
        <br></br>       
