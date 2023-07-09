@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import timeForDragons from "../../images/time-for-dragons.png";
 import ReCAPTCHA from "react-google-recaptcha";
