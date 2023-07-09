@@ -80,7 +80,7 @@ function Contact() {
       </form>      
       { sent ? <p className="successMessage">Message sent! 🎉 I'll be in touch with you soon.</p> : null }      
     </div>
-  );
+  ); 
 }
 
 export default Contact;
