@@ -72,7 +72,7 @@ function Contact() {
         <ReCAPTCHA
           //uncomment test key for local testing
           // sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
-          sitekey="6LfjcAwnAAAAAEJKPP30eyi0dZbq0DUjX9TJUlm6"
+          sitekey={process.env.CAPTCHA_SITE_KEY}
           onChange={onChange}          
        />
        <br></br>       
