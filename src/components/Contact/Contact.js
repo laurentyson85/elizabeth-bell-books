@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, createRef } from "react";
 import emailjs from "@emailjs/browser";
 import timeForDragons from "../../images/time-for-dragons.png";
+import ReCAPTCHA from "react-google-recaptcha";
 
-function Contact() {
+function Contact() {  
+  const refCaptcha = createRef();  
 
   const [formData, setFormData] = useState({
     name: "",
@@ -12,14 +14,34 @@ function Contact() {
 
   const [sent, setSent] = useState(false);
 
+  // useEffect(() => {
+  //   let timeout;
+
+  //   if (status === true || false) {
+  //     // Show the info message for 10 seconds
+  //     timeout = setTimeout(() => {
+  //       setAlertPrompt(null);
+  //     }, 10000);
+  //   }
+
+  //   return () => {
+  //     if (timeout) {
+  //       clearTimeout(timeout);
+  //       setStatus(null);
+  //     }
+  //   };
+  // }, [status]);
+
   function handleForm(event){
     setFormData({
       ...formData, [event.target.name]:event.target.value
     })
   }
- 
+  
   function handleSubmit(event){
-    event.preventDefault()
+    event.preventDefault();
+
+    const token = refCaptcha.current.getValue();
 
     emailjs
       .send(
@@ -29,6 +51,7 @@ function Contact() {
           user_name: formData.name,
           user_email: formData.email,
           message: formData.message,
+          "g-recaptcha-response": token,
         },
         process.env.REACT_APP_PUBLIC_KEY
       )
@@ -61,9 +84,14 @@ function Contact() {
         </div>
         <div className="half right cf">
           <textarea required type="text" placeholder="Message..." name="message" value={formData.message} onChange={handleForm}></textarea>
-        </div>
+        </div>        
+        <ReCAPTCHA
+          sitekey={process.env.CAPTCHA_SITE_KEY}
+          ref={refCaptcha}
+          // onChange={() => setStatus(null)}
+       />
         <input className="submit" type="submit" value="Submit" id="input-submit" />
-      </form>
+      </form>      
       { sent ? <p className="successMessage">Message sent! 🎉 I'll be in touch with you soon.</p> : null }      
     </div>
   );
