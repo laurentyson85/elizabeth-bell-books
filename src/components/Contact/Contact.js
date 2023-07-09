@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import timeForDragons from "../../images/time-for-dragons.png";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -12,6 +12,10 @@ function Contact() {
     email: "", 
     message: "",
   }) 
+
+  useEffect(() => {
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+  }, [])
 
   function handleForm(event){
     setFormData({
@@ -74,7 +78,7 @@ function Contact() {
           // sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
           sitekey={process.env.CAPTCHA_SITE_KEY}
           render="explicit"
-          onloadCallback={onChange}          
+          onChange={onChange}          
        />
        <br></br>       
         <input className="submit" hidden={hidden} type="submit" value="Submit" id="input-submit" />
