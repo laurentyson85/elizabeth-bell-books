@@ -74,7 +74,7 @@ function Contact() {
           // sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
           sitekey={process.env.CAPTCHA_SITE_KEY}
           render="explicit"
-          onChange={onChange}          
+          onloadCallback={onChange}          
        />
        <br></br>       
         <input className="submit" hidden={hidden} type="submit" value="Submit" id="input-submit" />
