@@ -9,7 +9,7 @@ function Contact() {
   const [sent, setSent] = useState(false); 
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
+    email: "", 
     message: "",
   }) 
 
