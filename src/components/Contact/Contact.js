@@ -73,6 +73,7 @@ function Contact() {
           //uncomment test key for local testing
           // sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
           sitekey={process.env.CAPTCHA_SITE_KEY}
+          render="explicit"
           onChange={onChange}          
        />
        <br></br>       
@@ -80,7 +81,7 @@ function Contact() {
       </form>      
       { sent ? <p className="successMessage">Message sent! 🎉 I'll be in touch with you soon.</p> : null }      
     </div>
-  ); 
+  );
 }
 
 export default Contact;
