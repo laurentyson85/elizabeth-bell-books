@@ -73,7 +73,7 @@ function Contact() {
           //uncomment test key for local testing
           // sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
           sitekey="6LfjcAwnAAAAAEJKPP30eyi0dZbq0DUjX9TJUlm6"          
-          onChange={onChange}          
+          onChange={onChange}
        />
        <br></br>       
         <input className="submit" hidden={hidden} type="submit" value="Submit" id="input-submit" />
