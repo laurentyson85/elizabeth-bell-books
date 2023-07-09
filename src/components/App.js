@@ -12,7 +12,7 @@ function App() {
   return (
     <div >
       <Header />
-      <Routes>      
+      <Routes basename="/elizabeth-bell-books">      
         <Route 
           path="gallery" 
           element={<Gallery />}
