@@ -1,47 +1,31 @@
-import React, { useState, createRef } from "react";
+import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import timeForDragons from "../../images/time-for-dragons.png";
 import ReCAPTCHA from "react-google-recaptcha";
 
-function Contact() {  
-  const refCaptcha = createRef();  
-
+function Contact() {    
+  const [token, setToken] = useState("");
+  const [hidden, setHidden] = useState(true);
+  const [sent, setSent] = useState(false); 
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
-  })
-
-  const [sent, setSent] = useState(false);
-
-  // useEffect(() => {
-  //   let timeout;
-
-  //   if (status === true || false) {
-  //     // Show the info message for 10 seconds
-  //     timeout = setTimeout(() => {
-  //       setAlertPrompt(null);
-  //     }, 10000);
-  //   }
-
-  //   return () => {
-  //     if (timeout) {
-  //       clearTimeout(timeout);
-  //       setStatus(null);
-  //     }
-  //   };
-  // }, [status]);
+  }) 
 
   function handleForm(event){
     setFormData({
       ...formData, [event.target.name]:event.target.value
     })
   }
+
+  function onChange(value) {   
+    setToken(value);
+    setHidden(false);
+  }
   
   function handleSubmit(event){
-    event.preventDefault();
-
-    const token = refCaptcha.current.getValue();
+    event.preventDefault();    
 
     emailjs
       .send(
@@ -74,7 +58,7 @@ function Contact() {
 
   return (
     <div className="contact">
-      <img className="time" src={timeForDragons} alt="TIme for Dragons image"/>
+      <img className="time" src={timeForDragons} alt="TIme for Dragons"/>
       <p className="contactTitle">Contact the Author</p>
       <p className="contactText">To place an order for an autographed book, a bookmark, to hire me for an event, or to ask me any questions, just use this form. I would love to hear from you!</p>
       <form className="cf" onSubmit={handleSubmit}>
@@ -86,11 +70,13 @@ function Contact() {
           <textarea required type="text" placeholder="Message..." name="message" value={formData.message} onChange={handleForm}></textarea>
         </div>        
         <ReCAPTCHA
+          //uncomment test key for local testing
+          // sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
           sitekey={process.env.CAPTCHA_SITE_KEY}
-          ref={refCaptcha}
-          // onChange={() => setStatus(null)}
+          onChange={onChange}          
        />
-        <input className="submit" type="submit" value="Submit" id="input-submit" />
+       <br></br>       
+        <input className="submit" hidden={hidden} type="submit" value="Submit" id="input-submit" />
       </form>      
       { sent ? <p className="successMessage">Message sent! 🎉 I'll be in touch with you soon.</p> : null }      
     </div>
