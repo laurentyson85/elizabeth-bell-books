@@ -1,7 +1,7 @@
 {
   "name": "elizabeth-bell-books",
   "version": "0.1.0",
-  "homepage": "https://laurentyson85.github.io/elizabeth-bell-books/",
+  "homepage": "https://www.elizabeth-bell-books.com/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
