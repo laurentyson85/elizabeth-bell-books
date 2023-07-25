@@ -680,6 +680,10 @@ textarea {
 }
 
 @media screen and (max-width: 393px) {
+  .header {    
+    height: 700px;
+  }
+
   .headerName {    
     font-size: 3.5rem;    
   }  
