@@ -41,6 +41,7 @@ body {
 .goldButtons {
   background-color: #C6AB64;
   border: none;
+  color: #4c4b4b;
   padding: 17px 30px;
   font-size: 1.1rem;
   text-align: center;
@@ -681,7 +682,7 @@ textarea {
 
 @media screen and (max-width: 393px) {
   .header {    
-    height: 700px;
+    height: 675px;
   }
 
   .headerName {    
