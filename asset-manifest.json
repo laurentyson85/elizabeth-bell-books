@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.ac77e5d5.css",
-    "main.js": "/static/js/main.9321c416.js",
+    "main.js": "/static/js/main.6291cb77.js",
     "static/js/787.d1424301.chunk.js": "/static/js/787.d1424301.chunk.js",
     "static/media/about-bgImage.jpeg": "/static/media/about-bgImage.f313bbcc9d24d399fe02.jpeg",
+    "static/media/elizabeth-headshot.jpeg": "/static/media/elizabeth-headshot.a4a754687e26f8123da5.jpeg",
     "static/media/bedtime-bookmark1.png": "/static/media/bedtime-bookmark1.d54d410fb67894b663b7.png",
     "static/media/bedtime-bookmark2.png": "/static/media/bedtime-bookmark2.8292fa9a340e7a8055dc.png",
     "static/media/time-for-dragons.png": "/static/media/time-for-dragons.13c6dc4e88f300fc8dec.png",
@@ -12,7 +13,6 @@
     "static/media/bedtime-book-cover.jpeg": "/static/media/bedtime-book-cover.8e3de3225d6bc0b59184.jpeg",
     "static/media/event-3.jpeg": "/static/media/event-3.3cbbb8e1c91667b81572.jpeg",
     "static/media/event-1.jpeg": "/static/media/event-1.d1d7743a54aab3d6166f.jpeg",
-    "static/media/elizabeth-headshot.jpeg": "/static/media/elizabeth-headshot.3e7e46036b96c70dc1fb.jpeg",
     "static/media/event-4.jpeg": "/static/media/event-4.4146300b93f5818c41c8.jpeg",
     "static/media/time-4.jpeg": "/static/media/time-4.d7afb18b39a9811c3ffe.jpeg",
     "static/media/event-2.jpeg": "/static/media/event-2.e29d28f1592693730fc4.jpeg",
@@ -27,11 +27,11 @@
     "static/media/time-6.jpeg": "/static/media/time-6.34dbfaf7f19d964f0a00.jpeg",
     "index.html": "/index.html",
     "main.ac77e5d5.css.map": "/static/css/main.ac77e5d5.css.map",
-    "main.9321c416.js.map": "/static/js/main.9321c416.js.map",
+    "main.6291cb77.js.map": "/static/js/main.6291cb77.js.map",
     "787.d1424301.chunk.js.map": "/static/js/787.d1424301.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac77e5d5.css",
-    "static/js/main.9321c416.js"
+    "static/js/main.6291cb77.js"
   ]
 }
