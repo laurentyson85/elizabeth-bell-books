@@ -65,7 +65,7 @@ nav {
 }
 
 nav a {
-  display: inline-bock; 
+  display: inline-block; 
   margin: 1rem;
   text-decoration: none;
   font-size: 1.1rem;
@@ -488,7 +488,7 @@ textarea {
   }
   .aboutHeadshotImgE {    
     width: 300px;
-    height: 400px;
+    height: auto;
   }
   .purchaseNoteTitle {    
     margin: 0rem 0rem 2rem 5rem;
@@ -555,7 +555,7 @@ textarea {
   } 
   .aboutHeadshotImgE {    
     width: 250px;
-    height: 325px;
+    height: auto;
   } 
 }
 
@@ -678,7 +678,7 @@ textarea {
   }
   .aboutHeadshotImgE {    
     width: 200px;
-    height: 230px;
+    height: auto;
   }
   .aboutTitle {
     font-size: 2rem;

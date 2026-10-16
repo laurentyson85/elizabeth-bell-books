@@ -12,7 +12,7 @@ function Bookstore() {
     <div className="bookstore">     
       <p className="bookstoreTitle">To purchase an autograpghed book or a bookmark, please&nbsp;<Link className= "textLink" to="/contact"> contact me!</Link></p> 
       <div className="bookstoreWrap">       
-        <div class="bookstoreRow">          
+        <div className="bookstoreRow">          
           <div className="bookstoreGallery">
             <img src={bedtimeBookCover} alt="Bedtime bookcover" />
             <p className="desc"> <i>Bedtime for Dragons</i>&nbsp; hardcover</p>

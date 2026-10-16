@@ -1,8 +1,34 @@
-# Getting Started with Create React App
+# Elizabeth Bell Books
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal site for Elizabeth Bell, author of the *Time for Dragons* children's book series.
+
+## Run locally
+
+Use Node 20. This Create React App project does not run reliably on newer Node versions.
+
+```bash
+nvm use 20
+npm install
+npm start
+```
+
+`npm install` is only needed the first time, or after dependencies change. `npm start` opens [http://localhost:3000](http://localhost:3000) and reloads when you save. Stop it with Ctrl+C.
+
+## Update the public site
+
+Review the diff first. After you commit, push `main`, then deploy. Pushing `main` updates the source. `npm run deploy` builds the site and publishes it to the `gh-pages` branch, which is what visitors see.
+
+```bash
+git pull --ff-only origin main
+git push origin main
+npm run deploy
+```
+
+In GitHub, leave Pages set to **Deploy from a branch: `gh-pages` / (root)**. Publishing `main` serves this README instead of the site.
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 

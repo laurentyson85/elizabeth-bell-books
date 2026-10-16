@@ -11,46 +11,46 @@ function TimeGallery() {
   return (   
     <div className="timeGallery">
       <p className="timeGalleryTitle">Take a peek at&nbsp;<i>Time for Dragons</i></p>        
-      <div class="row">
-        <div class="column">
+      <div className="row">
+        <div className="column">
           <div className="container">
             <img className= "image" src={time1} alt="Time for Dragons illustration"/>
-            <div class="overlay">
-              <div class="text">Bedtime for Dragons - Pg 2</div>              
+            <div className="overlay">
+              <div className="text">Bedtime for Dragons - Pg 2</div>              
             </div>
           </div>
           <div className="container">
             <img src={time2} alt="Time for Dragons illustration"/>
-            <div class="overlay">
-              <div class="text">Playtime for Dragons - Pg 5</div>              
+            <div className="overlay">
+              <div className="text">Playtime for Dragons - Pg 5</div>              
             </div>
           </div>          
         </div>
-        <div class="column">
+        <div className="column">
         <div className="container">
           <img src={time3} alt="Time for Dragons illustration"/>
-          <div class="overlay">
-            <div class="text">Bedtime for Dragons - Pg 8</div>              
+          <div className="overlay">
+            <div className="text">Bedtime for Dragons - Pg 8</div>              
           </div>
         </div>
           <div className="container">
             <img src={time4} alt="Time for Dragons illustration"/>
-            <div class="overlay">
-              <div class="text">Playtime for Dragons - Pg 10</div>              
+            <div className="overlay">
+              <div className="text">Playtime for Dragons - Pg 10</div>              
             </div>
           </div>          
         </div>
-        <div class="column">
+        <div className="column">
           <div className="container">
             <img src={time5} alt="Time for Dragons illustration"/>
-            <div class="overlay">
-              <div class="text">Bedtime for Dragons - Pg 13</div>              
+            <div className="overlay">
+              <div className="text">Bedtime for Dragons - Pg 13</div>              
             </div>
           </div>
           <div className="container">
             <img src={time6} alt="Time for Dragons illustration"/>
-            <div class="overlay">
-              <div class="text">Playtime for Dragons - Pg 18</div>              
+            <div className="overlay">
+              <div className="text">Playtime for Dragons - Pg 18</div>              
             </div>
          </div>           
         </div>
